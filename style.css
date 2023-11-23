@@ -1,0 +1,245 @@
+/* 
+  Selected tags
+  {
+      Property: value;
+  }
+ */
+ * {
+  box-sizing: border-box;
+}
+  /* Body */
+  body{
+      Margin: 0px;
+      padding: 0px;
+      font: 20px arial;
+      background-color: white;
+  }
+   .container{
+       margin: auto;
+       width:80%;
+   }
+   /* Header */
+   header{
+       background-color: #717b71;
+       color:black;
+       padding-bottom: 70px;
+      min-height: 80Vh;
+       border-bottom: 2px solid #00abffbf;
+   }
+
+   header h1{
+       display: inline;
+       margin: 0;
+       
+   }
+   #medi{
+       color: blue;
+   }
+   header img{
+       margin: 0px;
+       float:left;
+   }
+   header li{
+       Float: left;
+       display: inline;
+       padding: 0 8px 20px 0px;
+       align-content:flex-end;
+       flex-wrap: wrap;
+   }
+   header a{
+       text-decoration: none;
+      color: #00abffbf;
+       font-size: 16px;
+       font-weight: bolder;
+   }
+   
+   /* showcase  */
+ header, section .showcase{
+       background: url("back.jpeg");
+       background: ;
+       background-width: 100%;
+       background-repeat: ;
+       background-size: cover;
+   }
+   header .showcase{
+       padding-top: 35%;
+       text-align: center;
+       color: black;
+       font: 22px arial, nexabold;
+       font-weight: 400;
+   }
+  #blog{
+       color: white;
+   }
+   
+   /* news */
+   section .dark{
+       text-align: center;
+       background: url("connect.jpeg");
+       padding-top: 20px;
+       min-height: 40Vh;
+       background-repeat:no-repeat;
+   }
+  .dark input{
+        width: 300px;
+        padding: 3px;
+        margin-top: 10px;
+        Background-color: white;
+        height: 30px;
+        border: none;
+    }
+    .dark h3{
+        margin-top: 20px;
+        color: #00abffbf;
+        font-weight: 430;
+        margin-left: 20px;
+    }
+    .dark button{
+        background: black;
+        Color: white;
+        width: 150px;
+        border-radius: 5px;
+        border: 1px solid #00abffbf;
+        text-align: center;
+        margin-bottom: 50px;
+        height: 30px;
+        font-size: 18px;
+    }
+    section .pgText ul{
+        text-align: center;
+        list-style: none;
+        font: 20px ariel;
+        padding: 0;
+    }
+    .pgText #meNews{
+        background: whitesmoke;
+        margin-top: 20px;
+    }
+    .pgText #food{
+        background: whitesmoke;
+        margin-top:20px;
+    }
+    .pgText #mp{
+        background: whitesmoke;
+        margin-top:20px;
+    }
+    .pgText #habit{
+        background: whitesmoke;
+        margin-top: 20px;
+    }
+    .pgText #drug{
+        background: whitesmoke;
+        margin-top:20px;
+    }
+    .pgText p{
+        font: 16px arial verdana;
+    }
+    #para{
+        margin: 20px;
+        font: 20px arial ;
+        padding-bottom: 80px;
+        font-weight: 250;
+  }
+   .pgText button{
+        border: 1px solid black;
+        height: 50px;
+        width: 70px;
+        margin-bottom: 50px;
+    }
+    .pgText button a{
+        text-decoration: none;
+        color: black;
+    }
+    .pgText button a:hover{
+        color: blue;
+        cursor: pointer;
+    }
+    
+    /* footer */
+    footer{
+        text-align: center;
+        Min-height:50px ;
+        background: url("back.jpeg");
+        border-bottom: 1px solid #00abffbf;
+        border-top: 1px solid #00abffbf;
+        color: #00abffbf;
+        font-weight: 350;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: #00abffbf;
+        font-weight: bold;
+    }
+   header a:hover, footer a:hover {
+        color: black;
+        cursor: pointer;
+    }
+    
+    /* About */
+    .above{
+        text-align: center;
+        padding-top: 50%;
+        font: 30px nevabold;
+        color: white;
+    }
+  
+    .mission{
+        background: whitesmoke;
+        font-weight: 250;
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 50Vh;
+        width: 90%;
+        text-align: center;
+    }
+    #mission{
+      padding-top: 40px;
+    }
+    .hero{
+       text-align: center;
+       font: 20px arial;
+   }
+   .hero h3{
+       
+   }
+    h1 #Ohero{
+        font: 30px;
+        font-weight: bold;
+    }
+  h3, #hero {
+        font-weight: 300;
+    }
+    
+    /* Contact */
+    .tales, #search{
+        Text-align: center;
+    }
+    #search{
+        margin-top: 100px;
+    }
+       .connect{
+        text-align: center;
+        padding-top: 20px;
+        background: url("connect.jpeg");
+        margin: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70Vh;
+    }
+    .connect input{
+        width: 220px;
+        padding: 3px;
+        margin-top: 20px;
+        Background-color: white;
+        height: 30px;
+        border: none;
+    }
+       .connect button{
+           background: black;
+           color: white;
+           border: 1px solid #00abffbf;
+           width: 200px;
+           height: 30px;
+           font-size: 20px;
+    }
